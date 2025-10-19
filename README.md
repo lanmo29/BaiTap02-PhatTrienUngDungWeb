@@ -8,3 +8,6 @@ Stop IIS
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/81e9b82d-6c77-4d96-a536-3693fd43b553" />
 
+Download và giải nén Apache
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d1d0817b-a0bc-4a59-8b21-9abe94786265" />
