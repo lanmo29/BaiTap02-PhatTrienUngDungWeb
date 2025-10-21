@@ -32,3 +32,7 @@ Tải và cài đặt NSSM
 Tạo file run-nodered.cmd
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59425f78-0013-4f4b-a7e4-54d9284775a1" />
+
+Cài đặt Node-RED như dịch vụ với NSSM
+
+<img width="1097" height="632" alt="image" src="https://github.com/user-attachments/assets/8a77e47e-d8ce-4813-aef5-94c978d1b899" />
