@@ -73,4 +73,4 @@ Gồm có 3 file code
 
 Kết quả cuối cùng
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/99e647c4-a871-48e4-875d-6c0e69da6558" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86f90089-0ed8-4729-b8b7-c32e17e28509" />
