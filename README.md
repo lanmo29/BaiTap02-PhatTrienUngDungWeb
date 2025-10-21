@@ -28,3 +28,7 @@ Cài Node.js
 Tải và cài đặt NSSM
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/870544ae-2322-40f7-aaae-03c37c1ba110" />
+
+Tạo file run-nodered.cmd
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59425f78-0013-4f4b-a7e4-54d9284775a1" />
