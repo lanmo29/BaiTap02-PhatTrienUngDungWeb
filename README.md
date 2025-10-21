@@ -44,3 +44,7 @@ Khởi động dịch vụ Node-RED
 giao diện Node-RED
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0653172e-6ba5-4d8e-8b26-92f646bb28eb" />
+
+Tạo DB và data test trên MSSQL
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2184213-9855-4550-9aea-69b219b1ca08" />
