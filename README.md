@@ -69,4 +69,8 @@ Gồm có 3 file code
 - nguyenhunglan.css: Trang trí
 - nguyenhunglan.js: JS tiền xử lý (validate), gửi API, hậu xử lý (hiển thị table từ JSON)
 
+<img width="910" height="225" alt="image" src="https://github.com/user-attachments/assets/5c84cfc1-2621-4b33-b05d-59f018e7ea30" />
+
+Kết quả cuối cùng
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/99e647c4-a871-48e4-875d-6c0e69da6558" />
