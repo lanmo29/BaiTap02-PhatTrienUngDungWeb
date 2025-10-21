@@ -52,3 +52,7 @@ Tạo DB và data test trên MSSQL
 Cài thư viện Node-RED
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a1b6741-7614-4fda-a38f-de70e6e3b81c" />
+
+Nội dung file settings.js sau khi sửa
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed693ddb-1f92-48a0-b35a-03b41e2d8aa4" />
