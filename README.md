@@ -48,3 +48,7 @@ giao diện Node-RED
 Tạo DB và data test trên MSSQL
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2184213-9855-4550-9aea-69b219b1ca08" />
+
+Cài thư viện Node-RED
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a1b6741-7614-4fda-a38f-de70e6e3b81c" />
