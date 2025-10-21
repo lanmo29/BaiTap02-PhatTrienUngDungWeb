@@ -61,3 +61,10 @@ Tạo API backend bằng Node-RED
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/97f18b05-06c3-46e7-8e30-0818dada26c6" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cebdd22b-9ab2-42c6-8ef9-c08b5dcd5eaa" />
+
+Tạo giao diện frontend
+Gồm có 3 file code
+
+- index.html: Giao diện form tìm kiếm, thêm dấu ấn cá nhân (tên/MSSV/bài tập ở footer)
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/99e647c4-a871-48e4-875d-6c0e69da6558" />
