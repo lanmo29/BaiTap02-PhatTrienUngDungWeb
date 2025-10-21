@@ -40,3 +40,7 @@ Cài đặt Node-RED như dịch vụ với NSSM
 Khởi động dịch vụ Node-RED
 
 <img width="1097" height="639" alt="image" src="https://github.com/user-attachments/assets/f9662f4b-4275-4fdf-8c56-de5d39f731fe" />
+
+giao diện Node-RED
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0653172e-6ba5-4d8e-8b26-92f646bb28eb" />
