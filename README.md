@@ -15,3 +15,7 @@ Download và giải nén Apache
 Cấu hình domain nguyenhunglan.com
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2744bb9-b719-45cc-a94c-2cb8c4281e97" />
+
+Kết Quả Chạy Apache
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ca403fa1-d7c0-477b-bb5b-2c2049516e08" />
