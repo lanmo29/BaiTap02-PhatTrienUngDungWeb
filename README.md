@@ -36,3 +36,7 @@ Tạo file run-nodered.cmd
 Cài đặt Node-RED như dịch vụ với NSSM
 
 <img width="1097" height="632" alt="image" src="https://github.com/user-attachments/assets/8a77e47e-d8ce-4813-aef5-94c978d1b899" />
+
+Khởi động dịch vụ Node-RED
+
+<img width="1097" height="639" alt="image" src="https://github.com/user-attachments/assets/f9662f4b-4275-4fdf-8c56-de5d39f731fe" />
