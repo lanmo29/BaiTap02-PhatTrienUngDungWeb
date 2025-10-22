@@ -77,3 +77,7 @@ Kết quả cuối cùng
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86f90089-0ed8-4729-b8b7-c32e17e28509" />
 
 # NHẬN XÉT BÀI LÀM CỦA MÌNH 
+1: quá trình cài đặt các phần mềm và các thư viện như nào?
+
+Quá trình cài đặt các phần mềm như Apache, Node.js, Node-RED và thư viện cho Node-RED khá phức tạp nhưng logic. Em nhận thấy cần chú ý đến quyền Admin khi chạy lệnh, path chính xác (như D:\Apache24, D:\nodejs\nodered), và kiểm tra error log (error.log cho Apache, log CMD cho Node-RED). 
+Ví dụ, cài Apache yêu cầu chỉnh httpd.conf và vhosts.conf để bind domain, còn Node.js/Node-RED dùng npm install với --prefix để custom path, rồi dùng NSSM tạo service để chạy background. Thư viện Node-RED cài qua Manage Palette đơn giản, nhưng cần restart service để apply. Khó khăn lớn nhất là debug lỗi (như port in use, syntax error), giúp em hiểu tầm quan trọng của documentation (Apache docs, Node-RED forum) và tool như netstat để check port. Tổng thể, em hiểu rằng cài đặt cần theo thứ tự (stop IIS trước, install service sau), và linh hoạt path nếu ổ D không có.
