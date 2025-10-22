@@ -97,11 +97,17 @@ JSON sẽ có dạng
 [
 
   {
+  
     "ID": 1,
+    
     "HoTen": "Nguyễn Hùng Lân",
+    
     "MSSV": "K215480106030",
+    
     "Diem": 9.5
+    
   }
+  
 ]
 
 Nếu không tìm thấy kết quả, trả mảng rỗng: []
