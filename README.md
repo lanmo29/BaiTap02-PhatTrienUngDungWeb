@@ -81,3 +81,24 @@ Kết quả cuối cùng
 
 Quá trình cài đặt các phần mềm như Apache, Node.js, Node-RED và thư viện cho Node-RED khá phức tạp nhưng logic. Em nhận thấy cần chú ý đến quyền Admin khi chạy lệnh, path chính xác (như D:\Apache24, D:\nodejs\nodered), và kiểm tra error log (error.log cho Apache, log CMD cho Node-RED). 
 Ví dụ, cài Apache yêu cầu chỉnh httpd.conf và vhosts.conf để bind domain, còn Node.js/Node-RED dùng npm install với --prefix để custom path, rồi dùng NSSM tạo service để chạy background. Thư viện Node-RED cài qua Manage Palette đơn giản, nhưng cần restart service để apply. Khó khăn lớn nhất là debug lỗi (như port in use, syntax error), giúp em hiểu tầm quan trọng của documentation (Apache docs, Node-RED forum) và tool như netstat để check port. Tổng thể, em hiểu rằng cài đặt cần theo thứ tự (stop IIS trước, install service sau), và linh hoạt path nếu ổ D không có.
+
+2: cách sử dụng nodered để tạo api back-end như nào?
+
+Node-RED rất trực quan với giao diện kéo-thả node, giúp tạo API nhanh mà không viết code phức tạp. Em học được cách dùng HTTP In để nhận GET request (URL /timkiem với query param q), Function node tiền xử lý (set msg.query từ msg.req.query.q), MSSQL node kết nối DB (config server, port, user/pass, query LIKE '%@query%'), và HTTP Response trả JSON (status 200, header application/json). Debug node hữu ích để xem data trung gian. Khó khăn là param type (NVarChar cho Unicode) và connection (localhost\SQLEXPRESS), nhưng sau fix lỗi connect (enable TCP/IP, firewall port 1433), API chạy mượt. Em hiểu Node-RED phù hợp cho IoT/API đơn giản, với flow dễ scale (thêm node cho thêm/sửa/xóa).
+
+3: cách frond-end tương tác với back-end ra sao?
+
+Frontend (HTML/CSS/JS) tương tác backend qua AJAX (XMLHttpRequest), gửi request GET đến API Node-RED và nhận JSON để update UI động mà không reload page. Trong nguyenhunglan.js, em dùng xhr.open('GET', url) để gửi query, onreadystatechange xử lý response (JSON.parse để parse data), rồi build table HTML từ JSON để hiển thị ở div#result. Pre-process ở JS (check input rỗng) và post-process (render table) giúp user experience tốt. Em hiểu CORS không vấn đề vì same domain (localhost), nhưng thực tế cần header nếu cross-domain. Khó khăn là debug Network tab F12 để xem request status (200 OK hay 404), giúp hiểu client-server flow: frontend gửi data, backend query DB trả JSON, frontend render.
+
+JSON sẽ có dạng 
+
+[
+  {
+    "ID": 1,
+    "HoTen": "Nguyễn Hùng Lân",
+    "MSSV": "K215480106030",
+    "Diem": 9.5
+  }
+]
+
+Nếu không tìm thấy kết quả, trả mảng rỗng: []
