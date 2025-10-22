@@ -92,6 +92,8 @@ Frontend (HTML/CSS/JS) tương tác backend qua AJAX (XMLHttpRequest), gửi req
 
 JSON sẽ có dạng 
 
+<img width="522" height="232" alt="image" src="https://github.com/user-attachments/assets/c58b8473-5330-4118-ad9b-72dec4d1d3c2" />
+
 [
   {
     "ID": 1,
