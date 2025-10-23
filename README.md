@@ -65,6 +65,9 @@ Nội dung file settings.js sau khi sửa
 Tạo API backend bằng Node-RED
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/97f18b05-06c3-46e7-8e30-0818dada26c6" />
+
+Màn hình đã tạo API bằng Node-RED
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cebdd22b-9ab2-42c6-8ef9-c08b5dcd5eaa" />
 
 Tạo giao diện frontend
