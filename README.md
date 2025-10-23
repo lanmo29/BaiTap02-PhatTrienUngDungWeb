@@ -9,7 +9,7 @@ Stop IIS
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/81e9b82d-6c77-4d96-a536-3693fd43b553" />
 
-Em đã Disabled
+Em đã tạm thời Disabled toàn hoàn IIS để tránh trường hợp tự động khởi động lại
 
 <img width="630" height="30" alt="image" src="https://github.com/user-attachments/assets/39f26dc5-5922-41a1-9a6f-c6ac78679aac" />
 
