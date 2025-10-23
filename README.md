@@ -74,7 +74,7 @@ Gồm có 3 file code
 
 Kết quả cuối cùng
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86f90089-0ed8-4729-b8b7-c32e17e28509" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/85df8b34-e4b5-4eaf-9d62-c53e1fdc124a" />
 
 # NHẬN XÉT BÀI LÀM CỦA MÌNH 
 1: quá trình cài đặt các phần mềm và các thư viện như nào?
