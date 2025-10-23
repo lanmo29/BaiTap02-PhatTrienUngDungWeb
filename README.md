@@ -30,7 +30,7 @@ Cài Node.js
 <img width="1481" height="752" alt="image" src="https://github.com/user-attachments/assets/7baf0bd1-4787-4a93-824e-4ae19d2ceb47" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64b71e38-4de0-48b9-b315-143e9a1a559d" />
 
-Tải và cài đặt NSSM
+Tải và cài đặt NSSM để giúp Backend hoạt động liên tục mà ko cần giữ CMD mở
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/870544ae-2322-40f7-aaae-03c37c1ba110" />
 
