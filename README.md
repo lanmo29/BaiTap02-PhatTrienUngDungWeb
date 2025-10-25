@@ -95,7 +95,7 @@ Node-RED rất trực quan với giao diện kéo-thả node, giúp tạo API nh
 
 3: cách frond-end tương tác với back-end ra sao?
 
-Frontend (HTML/CSS/JS) tương tác backend qua AJAX (XMLHttpRequest), gửi request GET đến API Node-RED và nhận JSON để update UI động mà không reload page. Trong nguyenhunglan.js, em dùng xhr.open('GET', url) để gửi query, onreadystatechange xử lý response (JSON.parse để parse data), rồi build table HTML từ JSON để hiển thị ở div#result. Pre-process ở JS (check input rỗng) và post-process (render table) giúp user experience tốt. Em hiểu CORS không vấn đề vì same domain (localhost), nhưng thực tế cần header nếu cross-domain. Khó khăn là debug Network tab F12 để xem request status (200 OK hay 404), giúp hiểu client-server flow: frontend gửi data, backend query DB trả JSON, frontend render.
+Frontend (HTML/CSS/JS) tương tác backend qua AJAX (XMLHttpRequest), gửi request GET đến API Node-RED và nhận JSON để update UI động mà không reload page. Trong nguyenhunglan.js, em dùng xhr.open('GET', url) để gửi query, onreadystatechange xử lý response (JSON.parse để parse data), rồi build table HTML từ JSON để hiển thị ở div#result. Pre-process ở JS (check input rỗng) và post-process (render table) giúp user experience tốt. Em hiểu CORS (Cross-Origin Resource Sharing)không vấn đề vì same domain (localhost), nhưng thực tế cần header nếu cross-domain. Khó khăn là debug Network tab F12 để xem request status (200 OK hay 404), giúp hiểu client-server flow: frontend gửi data, backend query DB trả JSON, frontend render.
 
 JSON sẽ có dạng 
 
